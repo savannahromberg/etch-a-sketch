@@ -1,0 +1,20 @@
+.wrapper {
+  display: grid;
+  grid-template: 1fr;
+  border: 1px solid black;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.grid {
+    display: inline-grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    width: 100vw - 20px;
+    height: 100vh - 20px;
+  }
+div {
+    display: grid;
+    border: 1px solid #DDDDDD;
+}
